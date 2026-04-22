@@ -1,0 +1,946 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B4E7475E-45E6-48C5-9167-AAF64312CFFF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>sistechy.My.MyApplication</StartupObject>
+    <RootNamespace>sistechy</RootNamespace>
+    <AssemblyName>sistechy</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>sistechy.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>sistechy.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="agenda\frmAgendaPrincipal.Designer.vb">
+      <DependentUpon>frmAgendaPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="agenda\frmAgendaPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="agenda\FrmAlteraHorario.Designer.vb">
+      <DependentUpon>FrmAlteraHorario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="agenda\FrmAlteraHorario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="agenda\frmNovoHorario.Designer.vb">
+      <DependentUpon>frmNovoHorario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="agenda\frmNovoHorario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="atendimento\frmInternacaoOpcoes.Designer.vb">
+      <DependentUpon>frmInternacaoOpcoes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="atendimento\frmInternacaoOpcoes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="configuracoes\frmConfiguracoes.Designer.vb">
+      <DependentUpon>frmConfiguracoes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="configuracoes\frmConfiguracoes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="estoque\frmAdicionarItem.Designer.vb">
+      <DependentUpon>frmAdicionarItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="estoque\frmAdicionarItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="atendimento\frmAtendimento.Designer.vb">
+      <DependentUpon>frmAtendimento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="atendimento\frmAtendimento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\frmCadastro_forne.Designer.vb">
+      <DependentUpon>frmCadastro_forne.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\frmCadastro_forne.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\frmCadastro_animal.Designer.vb">
+      <DependentUpon>frmCadastro_animal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\frmCadastro_animal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\frmCadastro_func.Designer.vb">
+      <DependentUpon>frmCadastro_func.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\frmCadastro_func.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\frmCadastro_cliente.Designer.vb">
+      <DependentUpon>frmCadastro_cliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\frmCadastro_cliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\frmCadastro.Designer.vb">
+      <DependentUpon>frmCadastro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\frmCadastro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="atendimento\frmCirurgia.Designer.vb">
+      <DependentUpon>frmCirurgia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="atendimento\frmCirurgia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultas\frmConsulta.Designer.vb">
+      <DependentUpon>frmConsulta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultas\frmConsulta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="estoque\frmConsultarItem.Designer.vb">
+      <DependentUpon>frmConsultarItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="estoque\frmConsultarItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultas\frmConsulta_forne.Designer.vb">
+      <DependentUpon>frmConsulta_forne.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultas\frmConsulta_forne.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultas\frmConsulta_func.Designer.vb">
+      <DependentUpon>frmConsulta_func.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultas\frmConsulta_func.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="atendimento\frmConsultaGeral.Designer.vb">
+      <DependentUpon>frmConsultaGeral.vb</DependentUpon>
+    </Compile>
+    <Compile Include="atendimento\frmConsultaGeral.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultas\frmConsulta_animal.Designer.vb">
+      <DependentUpon>frmConsulta_animal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultas\frmConsulta_animal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultas\frmConsulta_cliente.Designer.vb">
+      <DependentUpon>frmConsulta_cliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultas\frmConsulta_cliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="estoque\frmConsultarTodosItens.Designer.vb">
+      <DependentUpon>frmConsultarTodosItens.vb</DependentUpon>
+    </Compile>
+    <Compile Include="estoque\frmConsultarTodosItens.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="estoque\frmEntradaEstoque.Designer.vb">
+      <DependentUpon>frmEntradaEstoque.vb</DependentUpon>
+    </Compile>
+    <Compile Include="estoque\frmEntradaEstoque.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="atendimento\frmInternacao.Designer.vb">
+      <DependentUpon>frmInternacao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="atendimento\frmInternacao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="atendimento\frmCadastrarLeito.Designer.vb">
+      <DependentUpon>frmCadastrarLeito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="atendimento\frmCadastrarLeito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="estatisticas\frmGraficos.Designer.vb">
+      <DependentUpon>frmGraficos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="estatisticas\frmGraficos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.vb">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="estoque\frmReabastecerItem.Designer.vb">
+      <DependentUpon>frmReabastecerItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="estoque\frmReabastecerItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="atendimento\frmVacinacao.Designer.vb">
+      <DependentUpon>frmVacinacao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="atendimento\frmVacinacao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="recuperacao_senha\frmRecuperaSenha.Designer.vb">
+      <DependentUpon>frmRecuperaSenha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="recuperacao_senha\frmRecuperaSenha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="recuperacao_senha\frmDigitaLogin.Designer.vb">
+      <DependentUpon>frmDigitaLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="recuperacao_senha\frmDigitaLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplash.Designer.vb">
+      <DependentUpon>frmSplash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mensagens\frmCaixaEntrada.Designer.vb">
+      <DependentUpon>frmCaixaEntrada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mensagens\frmCaixaEntrada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mensagens\frmCorpoMensagem.Designer.vb">
+      <DependentUpon>frmCorpoMensagem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mensagens\frmCorpoMensagem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mensagens\frmNovaMensagem.Designer.vb">
+      <DependentUpon>frmNovaMensagem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mensagens\frmNovaMensagem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModConexao.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="vendas\frmConsultarVendas.Designer.vb">
+      <DependentUpon>frmConsultarVendas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="vendas\frmConsultarVendas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vendas\frmDetalhesVenda.Designer.vb">
+      <DependentUpon>frmDetalhesVenda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="vendas\frmDetalhesVenda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vendas\frmFinalizaVenda.Designer.vb">
+      <DependentUpon>frmFinalizaVenda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="vendas\frmFinalizaVenda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vendas\frmVendaParcial.Designer.vb">
+      <DependentUpon>frmVendaParcial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="vendas\frmVendaParcial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vendas\frmVendas.Designer.vb">
+      <DependentUpon>frmVendas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="vendas\frmVendas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="agenda\frmAgendaPrincipal.resx">
+      <DependentUpon>frmAgendaPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="agenda\FrmAlteraHorario.resx">
+      <DependentUpon>FrmAlteraHorario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="agenda\frmNovoHorario.resx">
+      <DependentUpon>frmNovoHorario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="atendimento\frmCadastrarLeito.en.resx">
+      <DependentUpon>frmCadastrarLeito.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="atendimento\frmCadastrarLeito.pt.resx">
+      <DependentUpon>frmCadastrarLeito.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="atendimento\frmCadastrarLeito.resx">
+      <DependentUpon>frmCadastrarLeito.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="atendimento\frmInternacaoOpcoes.resx">
+      <DependentUpon>frmInternacaoOpcoes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="configuracoes\frmConfiguracoes.resx">
+      <DependentUpon>frmConfiguracoes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estoque\frmAdicionarItem.resx">
+      <DependentUpon>frmAdicionarItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="atendimento\frmAtendimento.resx">
+      <DependentUpon>frmAtendimento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\frmCadastro_forne.resx">
+      <DependentUpon>frmCadastro_forne.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\frmCadastro_animal.resx">
+      <DependentUpon>frmCadastro_animal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\frmCadastro_func.resx">
+      <DependentUpon>frmCadastro_func.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\frmCadastro_cliente.resx">
+      <DependentUpon>frmCadastro_cliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\frmCadastro.resx">
+      <DependentUpon>frmCadastro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="atendimento\frmCirurgia.resx">
+      <DependentUpon>frmCirurgia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultas\frmConsulta.resx">
+      <DependentUpon>frmConsulta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="atendimento\frmConsultaGeral.resx">
+      <DependentUpon>frmConsultaGeral.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultas\frmConsulta_animal.resx">
+      <DependentUpon>frmConsulta_animal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultas\frmConsulta_cliente.resx">
+      <DependentUpon>frmConsulta_cliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultas\frmConsulta_forne.resx">
+      <DependentUpon>frmConsulta_forne.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultas\frmConsulta_func.resx">
+      <DependentUpon>frmConsulta_func.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estoque\frmConsultarItem.resx">
+      <DependentUpon>frmConsultarItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estoque\frmConsultarTodosItens.resx">
+      <DependentUpon>frmConsultarTodosItens.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estoque\frmEntradaEstoque.resx">
+      <DependentUpon>frmEntradaEstoque.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="atendimento\frmInternacao.resx">
+      <DependentUpon>frmInternacao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estatisticas\frmGraficos.resx">
+      <DependentUpon>frmGraficos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.af.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.en.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.pt-BR.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.pt.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estoque\frmReabastecerItem.resx">
+      <DependentUpon>frmReabastecerItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="atendimento\frmVacinacao.resx">
+      <DependentUpon>frmVacinacao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="recuperacao_senha\frmRecuperaSenha.resx">
+      <DependentUpon>frmRecuperaSenha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="recuperacao_senha\frmDigitaLogin.resx">
+      <DependentUpon>frmDigitaLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplash.resx">
+      <DependentUpon>frmSplash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mensagens\frmCaixaEntrada.resx">
+      <DependentUpon>frmCaixaEntrada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mensagens\frmCorpoMensagem.resx">
+      <DependentUpon>frmCorpoMensagem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mensagens\frmNovaMensagem.resx">
+      <DependentUpon>frmNovaMensagem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vendas\frmConsultarVendas.resx">
+      <DependentUpon>frmConsultarVendas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vendas\frmDetalhesVenda.resx">
+      <DependentUpon>frmDetalhesVenda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vendas\frmFinalizaVenda.resx">
+      <DependentUpon>frmFinalizaVenda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vendas\frmVendaParcial.resx">
+      <DependentUpon>frmVendaParcial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vendas\frmVendas.resx">
+      <DependentUpon>frmVendas.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_venda\venda_geral.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_salvar\salvar_consulta.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_salvar\salva_vacinacao.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_salvar\salva_cadastro.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_salvar\salva_alteracoes.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_outros\sair.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_outros\logo.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_outros\login.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_outros\excluir_dados.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_outros\cancelar.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_outros\atualizar_dados.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_estoque\saida_estoque.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_estoque\remover_item.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_estoque\reabastecer_item.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_estoque\estoque_geral.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_estoque\entrada_estoque.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_estoque\adicionar_item.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_consulta\consultar_itens.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_consulta\consultar_geral.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_consulta\consultar_funcionario.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_consulta\consultar_fornecedor.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_consulta\consultar_cliente.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_consulta\consultar_animal.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_cadastro\cadastro_geral.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_cadastro\cadastro_funcionario.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_cadastro\cadastro_fornecedor.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_cadastro\cadastro_cliente.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_cadastro\cadastro_animal.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_atendimento\vacinacao.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_atendimento\internar_animal.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_atendimento\internacao.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_atendimento\cirurgia.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_atendimento\cadastrar_novo_leito.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_atendimento\atendimento_geral.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_vacinacao.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_internacao.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_consulta.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_cadastrar_leito.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_cirurgia.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_cadastro_animal.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_cadastro_fornecedor.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_cadastro_cliente.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_outros\agenda.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_outros\relatorios.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_outros\configuracoes.fw.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="banners\banner_cadastro_funcionario.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_consulta_funcionario.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_consulta_fornecedor.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_consulta_cliente.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_consulta_animal.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_resbastecer_item.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_adicionar_item.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_consultar_item.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_salvar\salvar_novo_horario.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_outros\atualizar_dados_horario.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_agenda.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_outros\cancelar_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_salvar\salva_cadastro_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_cadastrar_leito_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_outros\sair_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_venda\venda_geral_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_outros\relatorios_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_outros\configuracoes_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_estoque\estoque_geral_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_consulta\consultar_geral_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_cadastro\cadastro_geral_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_atendimento\atendimento_geral_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_outros\agenda_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_agenda_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_salvar\salvar_novo_horario_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_outros\atualizar_dados_horario_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_novo_horario_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_novo_horario.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_salvar\marcar_novo_horario_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_salvar\marcar_novo_horario.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_outros\atualizar_dados_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_alterar_horario_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_alterar_horario.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_atendimento\consulta_geral.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_atendimento\vacinacao_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_atendimento\internacao_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_atendimento\consulta_geral_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_atendimento\cirurgia_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_cadastro\cadastro_funcionario_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_cadastro\cadastro_fornecedor_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_cadastro\cadastro_cliente_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_cadastro\cadastro_animal_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_consulta\consultar_funcionario_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_consulta\consultar_fornecedor_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_consulta\consultar_cliente_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_consulta\consultar_animal_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_salvar\salvar_consulta_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_salvar\salva_vacinacao_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_salvar\salva_internacao_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_salvar\salva_cirurgia_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_salvar\salva_alteracoes_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_cirurgia_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_salvar\salva_cirurgia.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_consulta_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_salvar\salva_internacao.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_internacao_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_atendimento\internar_animal_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens_atendimento\cadastrar_novo_leito_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="banners\banner_vacinacao_english.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
+    <None Include="imagens_outros\graficos_geral_english.fw.png" />
+    <None Include="imagens_outros\configuracoes_spanish.fw.png" />
+    <None Include="imagens_outros\agenda_spanish.fw.png" />
+    <None Include="imagens_estoque\estoque_geral_spanish.fw.png" />
+    <None Include="imagens_venda\venda_geral_spanish.fw.png" />
+    <None Include="imagens_consulta\consultar_geral_spanish.fw.png" />
+    <None Include="imagens_outros\sair_spanish.fw.png" />
+    <None Include="imagens_outros\salvar_grafico_spanish.fw.png" />
+    <None Include="imagens_outros\salvar_grafico_english.fw.png" />
+    <None Include="imagens_estoque\reabastecer_item_spanish.fw.png" />
+    <None Include="imagens_estoque\reabastecer_item_english.fw.png" />
+    <None Include="imagens_estoque\adicionar_item_spanish.fw.png" />
+    <None Include="imagens_estoque\adicionar_item_english.fw.png" />
+    <None Include="imagens_consulta\consultar_todos_itens_spanish.fw.png" />
+    <None Include="imagens_consulta\consultar_todos_itens_english.fw.png" />
+    <None Include="imagens_consulta\consultar_todos_itens.fw.png" />
+    <None Include="imagens_consulta\consultar_itens_spanish.fw.png" />
+    <None Include="imagens_consulta\consultar_itens_english.fw.png" />
+    <None Include="imagens_outros\graficos_geral.fw.png" />
+    <None Include="imagens_outros\gato.jpg" />
+    <None Include="imagens_salvar\salva_alteracoes_spanish.fw.png" />
+    <None Include="imagens_outros\atualizar_dados_spanish.fw.png" />
+    <None Include="imagens_outros\excluir_dados_spanish.fw.png" />
+    <None Include="imagens_outros\excluir_dados_english.fw.png" />
+    <None Include="imagens_consulta\consultar_funcionario_spanish.fw.png" />
+    <None Include="imagens_consulta\consultar_fornecedor_spanish.fw.png" />
+    <None Include="imagens_consulta\consultar_cliente_spanish.fw.png" />
+    <None Include="imagens_consulta\consultar_animal_spanish.fw.png" />
+    <None Include="imagens_salvar\salva_vacinacao_spanish.fw.png" />
+    <None Include="imagens_salvar\salva_internacao_spanish.fw.png" />
+    <None Include="imagens_salvar\salvar_consulta_spanish.fw.png" />
+    <None Include="imagens_salvar\salva_cirurgia_spanish.fw.png" />
+    <None Include="imagens_salvar\salva_cadastro_spanish.fw.png" />
+    <None Include="imagens_salvar\salvar_novo_horario_spanish.fw.png" />
+    <None Include="imagens_outros\nova_mensagem_spanish.fw.png" />
+    <None Include="imagens_outros\nova_mensagem_english.fw.png" />
+    <None Include="imagens_outros\nova_mensagem.fw.png" />
+    <None Include="imagens_outros\cancelar_spanish.fw.png" />
+    <None Include="imagens_outros\atualizar_dados_horario_spanish.fw.png" />
+    <None Include="imagens_salvar\marcar_novo_horario_spanish.fw.png" />
+    <None Include="imagens_sem_edicao\fechar.png" />
+    <None Include="imagens_sem_edicao\lupa.png" />
+    <None Include="imagens_outros\salvar_grafico.fw.png" />
+    <None Include="imagens_venda\finalizar_venda.fw.png" />
+    <None Include="imagens_venda\prosseguir_venda.fw.png" />
+    <None Include="imagens_venda\consultar_venda.fw.png" />
+    <None Include="imagens_venda\consultarr_venda.fw.png" />
+    <None Include="imagens_venda\realizar_venda.fw.png" />
+    <None Include="imagens_outros\detalhes_venda.fw.png" />
+    <None Include="imagens_outros\logoff.fw.png" />
+    <None Include="banners\banner_fundo.fw.png" />
+    <None Include="banners\banner_vendas.fw.png" />
+    <None Include="banners\banner_detalhes_venda.fw.png" />
+    <None Include="banners\banner_nova_mensagem.fw.png" />
+    <None Include="banners\banner_corpo_mensagem.fw.png" />
+    <None Include="banners\banner_caixa_entrada.fw.png" />
+    <None Include="banners\banner_configuracoes.fw.png" />
+    <None Include="banners\banner_agenda_spanish.fw.png" />
+    <None Include="banners\banner_caixa_entrada_english.fw.png" />
+    <None Include="banners\banner_caixa_entrada_spanish.fw.png" />
+    <None Include="banners\banner_alterar_horario_spanish.fw.png" />
+    <None Include="banners\banner_novo_horario_spanish.fw.png" />
+    <None Include="imagens_atendimento\cirurgia_spanish.fw.png" />
+    <None Include="imagens_atendimento\consulta_geral_spanish.fw.png" />
+    <None Include="imagens_atendimento\internacao_spanish.fw.png" />
+    <None Include="imagens_atendimento\vacinacao_spanish.fw.png" />
+    <None Include="imagens_atendimento\cadastrar_novo_leito_spanish.fw.png" />
+    <None Include="banners\banner_cadastrar_leito_spanish.fw.png" />
+    <None Include="banners\banner_cirurgia_spanish.fw.png" />
+    <None Include="banners\banner_consulta_spanish.fw.png" />
+    <None Include="banners\banner_internacao_spanish.fw.png" />
+    <None Include="imagens_atendimento\internar_animal_spanish.fw.png" />
+    <None Include="banners\banner_vacinacao_spanish.fw.png" />
+    <None Include="imagens_cadastro\cadastro_animal_spanish.fw.png" />
+    <None Include="imagens_cadastro\cadastro_cliente_spanish.fw.png" />
+    <None Include="imagens_cadastro\cadastro_fornecedor_spanish.fw.png" />
+    <None Include="imagens_cadastro\cadastro_funcionario_spanish.fw.png" />
+    <None Include="banners\banner_cadastro_animal_english.fw.png" />
+    <None Include="banners\banner_cadastro_animal_spanish.fw.png" />
+    <None Include="banners\banner_cadastro_cliente_english.fw.png" />
+    <None Include="banners\banner_cadastro_cliente_spanish.fw.png" />
+    <None Include="banners\banner_cadastro_fornecedor_english.fw.png" />
+    <None Include="banners\banner_cadastro_fornecedor_spanish.fw.png" />
+    <None Include="banners\banner_cadastro_funcionario_english.fw.png" />
+    <None Include="banners\banner_cadastro_funcionario_spanish.fw.png" />
+    <None Include="banners\banner_configuracoes_english.fw.png" />
+    <None Include="banners\banner_configuracoes_spanish.fw.png" />
+    <None Include="banners\banner_consulta_animal_english.fw.png" />
+    <None Include="banners\banner_consulta_animal_spanish.fw.png" />
+    <None Include="banners\banner_consulta_cliente_english.fw.png" />
+    <None Include="banners\banner_consulta_cliente_spanish.fw.png" />
+    <None Include="banners\banner_consulta_fornecedor_english.fw.png" />
+    <None Include="banners\banner_consulta_fornecedor_spanish.fw.png" />
+    <None Include="banners\banner_consulta_funcionario_english.fw.png" />
+    <None Include="banners\banner_consulta_funcionario_spanish.fw.png" />
+    <None Include="banners\banner_adicionar_item_english.fw.png" />
+    <None Include="banners\banner_adicionar_item_spanish.fw.png" />
+    <None Include="banners\banner_consultar_item_english.fw.png" />
+    <None Include="banners\banner_consultar_item_spanish.fw.png" />
+    <None Include="banners\banner_consultar_todos_itens.fw.png" />
+    <None Include="banners\banner_consultar_todos_itens_english.fw.png" />
+    <None Include="banners\banner_consultar_todos_itens_spanish.fw.png" />
+    <None Include="banners\banner_corpo_mensagem_english.fw.png" />
+    <None Include="banners\banner_corpo_mensagem_spanish.fw.png" />
+    <None Include="banners\banner_nova_mensagem_english.fw.png" />
+    <None Include="banners\banner_nova_mensagem_spanish.fw.png" />
+    <None Include="imagens_cadastro\cadastro_geral_spanish.fw.png" />
+    <None Include="imagens_atendimento\atendimento_geral_spanish.fw.png" />
+    <Content Include="imagens_cartao\cartao_americanexpress.jpg" />
+    <Content Include="imagens_cartao\cartao_aura.jpg" />
+    <Content Include="imagens_cartao\cartao_dinnersclub.jpg" />
+    <Content Include="imagens_cartao\cartao_hipercard.jpg" />
+    <Content Include="imagens_cartao\cartao_mastercard.jpg" />
+    <Content Include="imagens_cartao\cartao_visa.png" />
+    <None Include="imagens_sem_edicao\fundo_splash.jpg" />
+    <None Include="imagens_sem_edicao\gif_splash.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

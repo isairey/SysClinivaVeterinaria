@@ -1,0 +1,896 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+sistechy
+</name>
+</assembly>
+<members>
+<member name="P:sistechy.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.adicionar_item_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.adicionar_item_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.adicionar_item_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.agenda_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.agenda_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.agenda_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.atendimento_geral_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.atendimento_geral_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.atendimento_geral_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.atualizar_dados_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.atualizar_dados_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.atualizar_dados_horario_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.atualizar_dados_horario_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.atualizar_dados_horario_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.atualizar_dados_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_adicionar_item_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_adicionar_item_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_adicionar_item_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_agenda_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_agenda_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_agenda_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_alterar_horario_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_alterar_horario_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_alterar_horario_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_cadastrar_leito_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_cadastrar_leito_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_cadastrar_leito_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_cadastro_animal_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_cadastro_animal_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_cadastro_animal_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_cadastro_cliente_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_cadastro_cliente_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_cadastro_cliente_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_cadastro_fornecedor_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_cadastro_fornecedor_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_cadastro_fornecedor_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_cadastro_funcionario_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_cadastro_funcionario_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_cadastro_funcionario_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_caixa_entrada_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_caixa_entrada_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_caixa_entrada_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_cirurgia_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_cirurgia_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_cirurgia_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_configuracoes_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_configuracoes_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_configuracoes_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_consulta_animal_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_consulta_animal_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_consulta_animal_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_consulta_cliente_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_consulta_cliente_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_consulta_cliente_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_consulta_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_consulta_fornecedor_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_consulta_fornecedor_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_consulta_fornecedor_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_consulta_funcionario_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_consulta_funcionario_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_consulta_funcionario_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_consulta_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_consulta_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_consultar_item_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_consultar_item_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_consultar_item_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_consultar_todos_itens_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_consultar_todos_itens_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_consultar_todos_itens_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_corpo_mensagem_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_corpo_mensagem_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_corpo_mensagem_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_detalhes_venda_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_fundo_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_internacao_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_internacao_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_internacao_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_nova_mensagem_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_nova_mensagem_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_nova_mensagem_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_novo_horario_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_novo_horario_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_novo_horario_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_resbastecer_item_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_vacinacao_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_vacinacao_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_vacinacao_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.banner_vendas_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cadastrar_novo_leito_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cadastrar_novo_leito_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cadastrar_novo_leito_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cadastro_animal_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cadastro_animal_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cadastro_animal_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cadastro_cliente_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cadastro_cliente_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cadastro_cliente_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cadastro_fornecedor_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cadastro_fornecedor_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cadastro_fornecedor_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cadastro_funcionario_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cadastro_funcionario_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cadastro_funcionario_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cadastro_geral">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cadastro_geral_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cadastro_geral_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cancelar_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cancelar_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cancelar_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cartao_americanexpress">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cartao_aura">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cartao_dinnersclub">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cartao_hipercard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cartao_mastercard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cartao_visa">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cirurgia_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cirurgia_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.cirurgia_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.configuracoes_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.configuracoes_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.configuracoes_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consulta_geral_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consulta_geral_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consulta_geral_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consultar_animal_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consultar_animal_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consultar_animal_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consultar_cliente_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consultar_cliente_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consultar_cliente_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consultar_fornecedor_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consultar_fornecedor_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consultar_fornecedor_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consultar_funcionario_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consultar_funcionario_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consultar_funcionario_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consultar_geral_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consultar_geral_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consultar_geral_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consultar_itens_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consultar_itens_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consultar_itens_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consultar_todos_itens_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consultar_todos_itens_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consultar_todos_itens_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.consultar_venda_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.detalhes_venda_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.entrada_estoque_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.estoque_geral_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.estoque_geral_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.estoque_geral_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.excluir_dados_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.excluir_dados_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.excluir_dados_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.fechar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.finalizar_venda_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.fundo_splash">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.gato">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.graficos_geral_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.graficos_geral_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.internacao_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.internacao_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.internacao_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.internar_animal_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.internar_animal_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.internar_animal_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.login_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.logo_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.logoff_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.marcar_novo_horario_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.marcar_novo_horario_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.marcar_novo_horario_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.nova_mensagem_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.nova_mensagem_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.nova_mensagem_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.prosseguir_venda_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.reabastecer_item_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.reabastecer_item_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.reabastecer_item_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.realizar_venda_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.relatorios_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.relatorios_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.remover_item_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.saida_estoque_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.sair_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.sair_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.sair_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salva_alteracoes_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salva_alteracoes_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salva_alteracoes_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salva_cadastro_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salva_cadastro_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salva_cadastro_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salva_cirurgia_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salva_cirurgia_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salva_cirurgia_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salva_internacao_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salva_internacao_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salva_internacao_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salva_vacinacao_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salva_vacinacao_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salva_vacinacao_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salvar_consulta_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salvar_consulta_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salvar_consulta_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salvar_grafico_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salvar_grafico_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salvar_grafico_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salvar_novo_horario_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salvar_novo_horario_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.salvar_novo_horario_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.vacinacao_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.vacinacao_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.vacinacao_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.venda_geral_english_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.venda_geral_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sistechy.My.Resources.Resources.venda_geral_spanish_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:sistechy.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

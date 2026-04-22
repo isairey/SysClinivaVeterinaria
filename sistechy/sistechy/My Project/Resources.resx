@@ -1,0 +1,775 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="adicionar_item_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_estoque\adicionar_item_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adicionar_item_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_estoque\adicionar_item.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adicionar_item_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_estoque\adicionar_item_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="agenda_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\agenda_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="agenda_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\agenda.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="atendimento_geral_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_atendimento\atendimento_geral_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="atendimento_geral_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_atendimento\atendimento_geral.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="atualizar_dados_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\atualizar_dados_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="atualizar_dados_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\atualizar_dados.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="atualizar_dados_horario_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\atualizar_dados_horario_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="atualizar_dados_horario_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\atualizar_dados_horario.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="atualizar_dados_horario_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\atualizar_dados_horario_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="atualizar_dados_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\atualizar_dados_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_adicionar_item_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_adicionar_item_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_adicionar_item_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_adicionar_item.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_adicionar_item_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_adicionar_item_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_agenda_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_agenda_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_agenda_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_agenda.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_agenda_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_agenda_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_alterar_horario_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_alterar_horario_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_alterar_horario_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_alterar_horario.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_alterar_horario_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_alterar_horario_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_cadastrar_leito_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_cadastrar_leito_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_cadastrar_leito_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_cadastrar_leito.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_cadastrar_leito_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_cadastrar_leito_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_cadastro_animal_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_cadastro_animal_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_cadastro_animal_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_cadastro_animal.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_cadastro_animal_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_cadastro_animal_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_cadastro_cliente_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_cadastro_cliente_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_cadastro_cliente_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_cadastro_cliente.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_cadastro_cliente_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_cadastro_cliente_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_cadastro_fornecedor_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_cadastro_fornecedor_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_cadastro_fornecedor_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_cadastro_fornecedor.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_cadastro_fornecedor_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_cadastro_fornecedor_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_cadastro_funcionario_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_cadastro_funcionario_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_cadastro_funcionario_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_cadastro_funcionario.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_cadastro_funcionario_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_cadastro_funcionario_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_caixa_entrada_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_caixa_entrada_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_caixa_entrada_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_caixa_entrada.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_caixa_entrada_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_caixa_entrada_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_cirurgia_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_cirurgia_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_cirurgia_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_cirurgia.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_cirurgia_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_cirurgia_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_configuracoes_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_configuracoes_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_configuracoes_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_configuracoes.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_configuracoes_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_configuracoes_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_consultar_item_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_consultar_item_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_consultar_item_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_consultar_item.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_consultar_item_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_consultar_item_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_consultar_todos_itens_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_consultar_todos_itens_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_consultar_todos_itens_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_consultar_todos_itens.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_consultar_todos_itens_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_consultar_todos_itens_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_consulta_animal_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_consulta_animal_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_consulta_animal_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_consulta_animal.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_consulta_animal_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_consulta_animal_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_consulta_cliente_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_consulta_cliente_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_consulta_cliente_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_consulta_cliente.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_consulta_cliente_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_consulta_cliente_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_consulta_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_consulta_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_consulta_fornecedor_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_consulta_fornecedor_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_consulta_fornecedor_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_consulta_fornecedor.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_consulta_fornecedor_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_consulta_fornecedor_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_consulta_funcionario_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_consulta_funcionario_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_consulta_funcionario_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_consulta_funcionario.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_consulta_funcionario_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_consulta_funcionario_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_consulta_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_consulta.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_consulta_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_consulta_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_corpo_mensagem_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_corpo_mensagem.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_detalhes_venda_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_detalhes_venda.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_fundo_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_fundo.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_internacao_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_internacao_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_internacao_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_internacao.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_internacao_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_internacao_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_nova_mensagem_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_nova_mensagem.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_novo_horario_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_novo_horario_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_novo_horario_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_novo_horario.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_novo_horario_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_novo_horario_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_resbastecer_item_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_resbastecer_item.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_vacinacao_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_vacinacao_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_vacinacao_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_vacinacao.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_vacinacao_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_vacinacao_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_vendas_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_vendas.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cadastrar_novo_leito_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_atendimento\cadastrar_novo_leito_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cadastrar_novo_leito_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_atendimento\cadastrar_novo_leito.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cadastrar_novo_leito_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_atendimento\cadastrar_novo_leito_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cadastro_animal_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_cadastro\cadastro_animal_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cadastro_animal_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_cadastro\cadastro_animal.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cadastro_animal_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_cadastro\cadastro_animal_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cadastro_cliente_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_cadastro\cadastro_cliente_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cadastro_cliente_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_cadastro\cadastro_cliente.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cadastro_cliente_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_cadastro\cadastro_cliente_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cadastro_fornecedor_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_cadastro\cadastro_fornecedor_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cadastro_fornecedor_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_cadastro\cadastro_fornecedor.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cadastro_fornecedor_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_cadastro\cadastro_fornecedor_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cadastro_funcionario_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_cadastro\cadastro_funcionario_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cadastro_funcionario_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_cadastro\cadastro_funcionario.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cadastro_funcionario_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_cadastro\cadastro_funcionario_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cadastro_geral" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_cadastro\cadastro_geral.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cadastro_geral_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_cadastro\cadastro_geral_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancelar_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\cancelar_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancelar_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\cancelar.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancelar_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\cancelar_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartao_americanexpress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_cartao\cartao_americanexpress.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartao_aura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_cartao\cartao_aura.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartao_dinnersclub" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_cartao\cartao_dinnersclub.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartao_hipercard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_cartao\cartao_hipercard.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartao_mastercard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_cartao\cartao_mastercard.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartao_visa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_cartao\cartao_visa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cirurgia_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_atendimento\cirurgia_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cirurgia_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_atendimento\cirurgia.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cirurgia_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_atendimento\cirurgia_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="configuracoes_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\configuracoes_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="configuracoes_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\configuracoes.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultar_animal_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_consulta\consultar_animal_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultar_animal_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_consulta\consultar_animal.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultar_animal_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_consulta\consultar_animal_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultar_cliente_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_consulta\consultar_cliente_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultar_cliente_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_consulta\consultar_cliente.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultar_cliente_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_consulta\consultar_cliente_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultar_fornecedor_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_consulta\consultar_fornecedor_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultar_fornecedor_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_consulta\consultar_fornecedor.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultar_fornecedor_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_consulta\consultar_fornecedor_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultar_funcionario_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_consulta\consultar_funcionario_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultar_funcionario_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_consulta\consultar_funcionario.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultar_funcionario_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_consulta\consultar_funcionario_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultar_geral_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_consulta\consultar_geral_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultar_geral_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_consulta\consultar_geral.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultar_itens_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_consulta\consultar_itens_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultar_itens_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_consulta\consultar_itens.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultar_itens_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_consulta\consultar_itens_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultar_todos_itens_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_consulta\consultar_todos_itens_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultar_todos_itens_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_consulta\consultar_todos_itens.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultar_todos_itens_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_consulta\consultar_todos_itens_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultar_venda_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_venda\consultar_venda.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consulta_geral_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_atendimento\consulta_geral_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consulta_geral_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_atendimento\consulta_geral.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consulta_geral_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_atendimento\consulta_geral_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detalhes_venda_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\detalhes_venda.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="entrada_estoque_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_estoque\entrada_estoque.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="estoque_geral_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_estoque\estoque_geral_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="estoque_geral_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_estoque\estoque_geral.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="excluir_dados_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\excluir_dados_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="excluir_dados_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\excluir_dados.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="excluir_dados_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\excluir_dados_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fechar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_sem_edicao\fechar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="finalizar_venda_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_venda\finalizar_venda.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fundo_splash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_sem_edicao\fundo_splash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\gato.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="graficos_geral_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\graficos_geral.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internacao_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_atendimento\internacao_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internacao_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_atendimento\internacao.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internacao_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_atendimento\internacao_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internar_animal_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_atendimento\internar_animal_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internar_animal_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_atendimento\internar_animal.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internar_animal_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_atendimento\internar_animal_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\login.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoff_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\logoff.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\logo.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marcar_novo_horario_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\marcar_novo_horario_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marcar_novo_horario_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\marcar_novo_horario.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marcar_novo_horario_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\marcar_novo_horario_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nova_mensagem_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\nova_mensagem_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nova_mensagem_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\nova_mensagem.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nova_mensagem_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\nova_mensagem_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prosseguir_venda_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_venda\prosseguir_venda.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reabastecer_item_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_estoque\reabastecer_item_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reabastecer_item_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_estoque\reabastecer_item.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reabastecer_item_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_estoque\reabastecer_item_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="realizar_venda_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_venda\realizar_venda.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="relatorios_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\relatorios_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="relatorios_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\relatorios.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="remover_item_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_estoque\remover_item.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saida_estoque_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_estoque\saida_estoque.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sair_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\sair_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sair_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\sair.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salvar_consulta_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\salvar_consulta_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salvar_consulta_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\salvar_consulta.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salvar_consulta_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\salvar_consulta_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salvar_grafico_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\salvar_grafico.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salvar_novo_horario_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\salvar_novo_horario_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salvar_novo_horario_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\salvar_novo_horario.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salvar_novo_horario_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\salvar_novo_horario_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salva_alteracoes_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\salva_alteracoes_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salva_alteracoes_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\salva_alteracoes.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salva_alteracoes_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\salva_alteracoes_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salva_cadastro_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\salva_cadastro_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salva_cadastro_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\salva_cadastro.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salva_cadastro_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\salva_cadastro_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salva_cirurgia_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\salva_cirurgia_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salva_cirurgia_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\salva_cirurgia.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salva_cirurgia_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\salva_cirurgia_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salva_internacao_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\salva_internacao_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salva_internacao_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\salva_internacao.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salva_internacao_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\salva_internacao_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salva_vacinacao_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\salva_vacinacao_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salva_vacinacao_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\salva_vacinacao.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salva_vacinacao_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_salvar\salva_vacinacao_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vacinacao_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_atendimento\vacinacao_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vacinacao_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_atendimento\vacinacao.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vacinacao_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_atendimento\vacinacao_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="venda_geral_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_venda\venda_geral_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="venda_geral_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_venda\venda_geral.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_corpo_mensagem_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_corpo_mensagem_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_corpo_mensagem_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_corpo_mensagem_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_nova_mensagem_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_nova_mensagem_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_nova_mensagem_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\banners\banner_nova_mensagem_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salvar_grafico_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\salvar_grafico_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salvar_grafico_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\salvar_grafico_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sair_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\sair_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="agenda_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\agenda_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="atendimento_geral_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_atendimento\atendimento_geral_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cadastro_geral_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_cadastro\cadastro_geral_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="configuracoes_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\configuracoes_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultar_geral_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_consulta\consultar_geral_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="estoque_geral_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_estoque\estoque_geral_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="graficos_geral_english_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_outros\graficos_geral_english.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="venda_geral_spanish_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagens_venda\venda_geral_spanish.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
